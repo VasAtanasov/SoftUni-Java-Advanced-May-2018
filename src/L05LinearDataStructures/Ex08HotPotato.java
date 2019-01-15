@@ -32,6 +32,7 @@ public class Ex08HotPotato {
         }
     }
 
+    @SuppressWarnings("Duplicates")
     private static void readInput() throws IOException {
         String[] persons = reader.readLine().split("\\s+");
         n = Integer.valueOf(reader.readLine());
